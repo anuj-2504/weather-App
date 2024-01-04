@@ -46,7 +46,7 @@ searchTab.addEventListener("click", () => {
     switchTab(searchTab);
 });
 
-//check if cordinates are already present in session storage
+
 function getfromSessionStorage() {
     const localCoordinates = sessionStorage.getItem("user-coordinates");
     if(!localCoordinates) {
